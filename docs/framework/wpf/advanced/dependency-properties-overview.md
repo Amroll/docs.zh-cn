@@ -49,7 +49,7 @@ ms.lasthandoff: 12/22/2017
 
 - **依赖项属性：**由支持的属性<xref:System.Windows.DependencyProperty>。
 
-- **依赖项属性标识符：** A<xref:System.Windows.DependencyProperty>实例，这是作为返回值中获得的注册依赖属性时，然后存储为类的静态成员。 对于与 [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)] 属性系统交互的许多 [!INCLUDE[TLA2#tla_api#plural](../../../../includes/tla2sharptla-apisharpplural-md.md)]，此标识符用作一个参数。
+- **依赖项属性标识符：** 一个<xref:System.Windows.DependencyProperty>实例，这是作为返回值中获得的注册依赖属性时，然后存储为类的静态成员。 对于与 [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)] 属性系统交互的许多 [!INCLUDE[TLA2#tla_api#plural](../../../../includes/tla2sharptla-apisharpplural-md.md)]，此标识符用作一个参数。
 
 - **CLR“包装器”：**属性的实际 get 和 set 实现。 这些实现通过使用在将合并的依赖项属性标识符<xref:System.Windows.DependencyObject.GetValue%2A>和<xref:System.Windows.DependencyObject.SetValue%2A>调用，从而使属性使用后备[!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)]属性系统。
 
